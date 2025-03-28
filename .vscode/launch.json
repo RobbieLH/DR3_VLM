@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Debugger remote: dreamer.py",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "/home/user/lihang/CODE/PythonCode/dr3+vlm/dreamer.py",
+      "python": "/home/user/lihang/miniconda3/envs/dr3+vlm/bin/python",
+      "console": "integratedTerminal",
+      "args": [
+        "--configs", "dmc_vision",
+        "--task", "dmc_walker_walk",
+        "--logdir", "./logdir/dmc_walker_walk9998888" ,
+        "--batch_length", "16",
+        "--imag_horizon", "10",
+        "--prefill", "50"
+      ]
+    }
+  ]
+}

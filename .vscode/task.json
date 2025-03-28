@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "python",
+          "type": "shell",
+          "command": "/home/user/lihang/miniconda3/envs/dr3+vlm/bin/python",  
+          "args": [
+              "${file}"
+          ],
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher": [
+              "$eslint-compact"
+          ]
+      }
+  ]
+}
