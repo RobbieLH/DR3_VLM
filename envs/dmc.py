@@ -96,12 +96,12 @@ class DeepMindControl:
         img = Image.fromarray(img)
        
         # img.save(img_path)
-        text = self.vlm(img)
+        # text = self.vlm(img)
         global global_counter
         # 计数器加 1
         global_counter = global_counter + 1
-        print(f"vlm调用的次数: {global_counter}")
-        # text = '这张图片显示了一个卡通风格的简笔画人物。这个人物有一个长脖子和一个圆圆的身体，没有明显的四肢或手部特征。背景是浅色的方格图案，可能代表地板或地面。整体风格简洁且具有一定的抽象感。'
+        # print(f"vlm调用的次数: {global_counter}")
+        text = '这张图片显示了一个卡通风格的简笔画人物。这个人物有一个长脖子和一个圆圆的身体，没有明显的四肢或手部特征。背景是浅色的方格图案，可能代表地板或地面。整体风格简洁且具有一定的抽象感。'
         text_embed = self.sbert(text)
         text_embed = np.array(text_embed)
 

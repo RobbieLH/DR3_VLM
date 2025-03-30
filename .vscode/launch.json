@@ -18,10 +18,9 @@
       "args": [
         "--configs", "dmc_vision",
         "--task", "dmc_walker_walk",
-        "--logdir", "./logdir/dmc_walker_walk9998888" ,
+        "--logdir", "./logdir/dmc_walker_walk00debug" ,
         "--batch_length", "16",
-        "--imag_horizon", "10",
-        "--prefill", "50"
+        "--imag_horizon", "10"
       ]
     }
   ]

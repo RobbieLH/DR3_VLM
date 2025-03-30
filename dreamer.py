@@ -437,7 +437,7 @@ def main(config):
 
     # 打印日志目录路径
     print("Logdir", logdir)
-    logging.info(f"Logdir:{logdir}")
+    # logging.info(f"Logdir:{logdir}")
      # 创建日志目录，如果父目录不存在则一并创建，若目录已存在则不报错
     logdir.mkdir(parents=True, exist_ok=True)
     # 创建训练数据目录，如果父目录不存在则一并创建，若目录已存在则不报错
@@ -452,7 +452,7 @@ def main(config):
     logger = tools.Logger(logdir, config.action_repeat * step)
      # 打印提示信息，表示开始创建环境
     print("Create envs.")
-    logging.info(f"Create envs.")
+    # logging.info(f"Create envs.")
     # 如果指定了离线训练数据目录，则使用该目录
     if config.offline_traindir:
         directory = config.offline_traindir.format(**vars(config))
@@ -477,7 +477,7 @@ def main(config):
     acts = train_envs[0].action_space
     # 打印动作空间信息
     print("Action Space", acts)
-    logging.info(f"Action Space:{acts}")
+    # logging.info(f"Action Space:{acts}")
      # 确定动作数量，如果动作空间是离散的，则取动作数量；否则取动作向量的维度
     config.num_actions = acts.n if hasattr(acts, "n") else acts.shape[0]
 
@@ -488,6 +488,9 @@ def main(config):
         prefill = max(0, config.prefill - count_steps(config.traindir))
         # 打印预填充数据集的提示信息
         print(f"Prefill dataset ({prefill} steps).")
+        # 创建一个服从均匀分布的随机动作生成器，为强化学习智能体在探
+        # 索环境初期提供随机动作，帮助智能体快速收集环境信息，
+        # 填充数据集，为后续的训练做好准备。
         if hasattr(acts, "discrete"):
             random_actor = tools.OneHotDist(
                 torch.zeros(config.num_actions).repeat(config.envs, 1)
@@ -500,12 +503,13 @@ def main(config):
                 ),
                 1,
             )
-
+        # 定义随机智能体：
         def random_agent(o, d, s):
             action = random_actor.sample()
             logprob = random_actor.log_prob(action)
             return {"action": action, "logprob": logprob}, None
 
+        # 模拟随机智能体与环境交互，填充数据集
         state = tools.simulate(
             random_agent,
             train_envs,
@@ -554,7 +558,7 @@ def main(config):
     # print(f"height 对应的值的数据类型是: {type(height_space)}")
     # print("\ntrain_envs[0].observation_space是", type(obs_space['height']))
     print("\ntrain_envs[0].observation_space是", train_envs[0].observation_space)
-    logging.info(f"train_envs[0].observation_space是, {train_envs[0].observation_space}")
+    # logging.info(f"train_envs[0].observation_space是, {train_envs[0].observation_space}")
      # 暂时禁用智能体参数的梯度计算
     agent.requires_grad_(requires_grad=False)
     # 如果存在最新的检查点文件
@@ -569,7 +573,7 @@ def main(config):
         agent._should_pretrain._once = False
 
     # make sure eval will be executed once after config.steps
-    # 确保在总步数加上评估间隔步数内，评估操作至少执行一次
+    # 确保在总步数加上评估间隔步数内，评估操作至少执行一次,agent._step只在训练阶段改变
     while agent._step < config.steps + config.eval_every:
         # 写入日志
         logger.write()

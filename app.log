@@ -1,0 +1,72 @@
+2025-03-29 08:13:34,004 - INFO - Logdir:logdir/dmc_walker_walk9998888
+2025-03-29 08:14:55,608 - INFO - Create envs.
+2025-03-29 08:21:28,370 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-29 08:21:28,525 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-29 08:21:28,991 - INFO - MuJoCo library version is: 235
+2025-03-29 08:36:39,547 - INFO - Action Space:Box(-1.0, 1.0, (6,), float32)
+2025-03-29 08:47:52,170 - INFO - Simulate agent.
+2025-03-29 08:50:02,021 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-29 08:50:02,084 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-29 08:50:02,226 - INFO - MuJoCo library version is: 235
+2025-03-29 08:53:32,435 - INFO - Simulate agent.
+2025-03-29 10:31:00,752 - INFO - train_envs[0].observation_space是, Dict(height:Box(-inf, inf, (1,), float32), image:Box(0, 255, (64, 64, 3), uint8), orientations:Box(-inf, inf, (14,), float32), text_embed:Box(-inf, inf, (384,), float32), velocity:Box(-inf, inf, (9,), float32))
+2025-03-29 10:42:09,310 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-03-29 10:42:09,310 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-03-29 10:42:09,310 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-03-29 10:42:09,360 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-03-29 10:55:10,959 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-29 10:55:10,982 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-29 10:55:11,117 - INFO - MuJoCo library version is: 235
+2025-03-29 11:24:19,339 - INFO - Simulate agent.
+2025-03-29 11:47:21,770 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-29 11:47:21,857 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-29 11:47:21,979 - INFO - MuJoCo library version is: 235
+2025-03-29 11:52:44,552 - INFO - Simulate agent.
+2025-03-29 11:55:05,504 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-03-29 11:55:05,504 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-03-29 11:55:05,504 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-03-29 11:55:05,516 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-03-29 12:06:21,325 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-29 12:06:22,164 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-29 12:06:22,171 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-29 12:06:22,284 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-29 12:41:40,249 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-29 12:41:40,329 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-29 12:41:40,333 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-29 12:41:40,356 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-30 07:26:50,646 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-30 07:26:50,740 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-30 07:26:51,147 - INFO - MuJoCo library version is: 235
+2025-03-30 07:40:22,327 - INFO - Simulate agent.
+2025-03-30 08:01:50,204 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-03-30 08:01:50,204 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-03-30 08:01:50,204 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-03-30 08:01:50,231 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-03-30 08:41:19,699 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-30 08:41:20,574 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-30 08:41:20,581 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-30 08:41:20,710 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
