@@ -1,0 +1,44 @@
+
+1、network.py 205行这里的prior不像论文中的h的Sequence model和内容像Z
+有时间可以看看img_step函数
+prior = self.img_step(prev_state, prev_action)
+
+回答：后经讨论发现prior和post里面的state["stoch"]为z， state["deter"]为h
+
+2、讨论什么时候和真正环境交互？？
+回答：他这是先用random_agent随机和环境交互采样，得到dataset。
+      然后循环交替
+      1、用eval与环境评估（不记录总交互步数里）。
+      2、用train与wm训练,然后 与环境训练放入episode中
+
+3.训练阶段和评估阶段有什么不同？
+可以跑一下debug
+
+回答：有空的时候可以跑一跑？
+
+4.可以调一调步数，换一个差异化更大的环境
+homegrid环境
+
+5.可以调步数，快速看效果，就不用耗时。
+
+6.vlm改成三张图片一起来预测
+
+7.与ltl讨论h，z, x分别是什么?
+
+"stoch": 是z???, "deter":是h???
+
+回答：猜想完全正确
+8.dataset是不是2500步
+回答：生成器的动态特性：sample_episodes 生成器在每次迭代时都会从当前的 episodes 中采样数据。
+      当后续向 episodes 中添加 20000 步数据后，episodes 对象的内容发生了改变。由于生成器在每次迭代时都会重新评估
+      episodes 中的数据，所以它会考虑到新添加的数据。
+
+9.找变量和论文变量是否对应的联系，调试查看。
+回答：好像是对应的
+
+10.评测效果，学习怎么评测
+
+11.挑选更符合的环境。进行测试训练。
+
+2025-04-03
+1、agent_state是啥？？？

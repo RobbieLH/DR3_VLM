@@ -70,3 +70,507 @@
 2025-03-30 08:41:20,710 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
   with torch.cuda.amp.autocast(self._use_amp):
 
+2025-03-30 11:38:17,643 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-30 11:38:17,751 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-30 11:38:17,995 - INFO - MuJoCo library version is: 235
+2025-03-30 11:40:36,976 - INFO - Simulate agent.
+2025-03-30 11:50:45,267 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-30 11:50:45,290 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-30 11:50:45,407 - INFO - MuJoCo library version is: 235
+2025-03-30 11:52:18,797 - INFO - Simulate agent.
+2025-03-30 13:29:01,505 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-30 13:29:01,533 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-30 13:29:01,679 - INFO - MuJoCo library version is: 235
+2025-03-30 13:30:41,043 - INFO - Simulate agent.
+2025-03-30 13:32:59,777 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-30 13:32:59,800 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-30 13:32:59,926 - INFO - MuJoCo library version is: 235
+2025-03-30 13:34:39,023 - INFO - Simulate agent.
+2025-03-30 14:35:19,509 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-03-30 14:35:19,510 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-03-30 14:35:19,510 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-03-30 14:35:19,548 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-03-31 07:34:02,796 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-31 07:34:02,926 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-31 07:34:03,120 - INFO - MuJoCo library version is: 235
+2025-03-31 07:35:51,683 - INFO - Simulate agent.
+2025-03-31 07:39:29,644 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-31 07:39:29,667 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-31 07:39:29,792 - INFO - MuJoCo library version is: 235
+2025-03-31 07:40:28,209 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-31 07:40:28,235 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-31 07:40:28,370 - INFO - MuJoCo library version is: 235
+2025-03-31 08:53:33,119 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-31 08:53:33,150 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-31 08:53:33,297 - INFO - MuJoCo library version is: 235
+2025-03-31 09:26:06,337 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-31 09:26:06,364 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-31 09:26:06,497 - INFO - MuJoCo library version is: 235
+2025-03-31 11:27:44,548 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-31 11:27:44,603 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-31 11:27:44,747 - INFO - MuJoCo library version is: 235
+2025-03-31 11:31:12,001 - INFO - Simulate agent.
+2025-03-31 11:32:23,433 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-31 11:32:23,458 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-31 11:32:23,585 - INFO - MuJoCo library version is: 235
+2025-03-31 11:35:41,675 - INFO - Simulate agent.
+2025-03-31 11:36:08,021 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-03-31 11:36:08,045 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-03-31 11:36:08,174 - INFO - MuJoCo library version is: 235
+2025-03-31 12:04:24,437 - INFO - Simulate agent.
+2025-03-31 12:10:59,405 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-03-31 12:10:59,405 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-03-31 12:10:59,405 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-03-31 12:11:00,014 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-03-31 13:14:20,883 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:14:22,317 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:14:22,325 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:14:22,629 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:16:41,090 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:16:41,233 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:16:41,240 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:16:41,272 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:16:52,135 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:16:52,270 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:16:52,277 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:16:52,309 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:26:58,846 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:27:08,649 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:27:08,682 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:27:43,890 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:27:44,033 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:27:44,041 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:27:44,080 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:39:37,208 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:39:37,319 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:39:37,327 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 13:39:37,360 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:05:28,599 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:05:28,745 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:05:28,752 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:05:28,784 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:23:55,486 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:23:55,628 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:23:55,636 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:23:55,670 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:24:48,848 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:24:48,985 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:24:48,993 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:24:49,027 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:27,724 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:27,873 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:27,881 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:27,915 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:32,684 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:32,829 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:32,840 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:32,880 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:38,007 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:38,153 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:38,160 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:38,193 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:39,291 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:39,432 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:39,440 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:25:39,476 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:26:42,646 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:26:42,783 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:26:42,791 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:26:42,823 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:26:55,127 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:26:55,279 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:26:55,287 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:26:55,320 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:27:07,588 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:27:07,691 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:27:07,696 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:27:07,720 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:27:12,727 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:27:12,866 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:27:12,874 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:27:12,905 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:28:36,071 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:28:36,214 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:28:45,304 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-03-31 14:28:45,338 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 00:39:13,757 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 00:39:13,779 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 00:39:14,137 - INFO - MuJoCo library version is: 235
+2025-04-01 00:49:36,171 - INFO - Simulate agent.
+2025-04-01 00:53:45,993 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-04-01 00:53:45,993 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-04-01 00:53:45,993 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-04-01 00:53:46,012 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-04-01 08:41:44,018 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 08:41:44,107 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 08:41:44,337 - INFO - MuJoCo library version is: 235
+2025-04-01 08:41:52,864 - INFO - Device 1 seems unavailable, Proceeding to check subsequent devices.
+2025-04-01 08:44:59,494 - INFO - Simulate agent.
+2025-04-01 08:51:32,175 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-04-01 08:51:32,175 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-04-01 08:51:32,175 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-04-01 08:51:32,281 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-04-01 09:23:36,708 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 10:48:30,983 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 10:50:07,712 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 10:50:08,070 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 11:53:40,778 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 11:53:40,823 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 11:53:41,052 - INFO - MuJoCo library version is: 235
+2025-04-01 11:54:57,917 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 11:54:57,942 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 11:54:58,073 - INFO - MuJoCo library version is: 235
+2025-04-01 12:01:58,066 - INFO - Simulate agent.
+2025-04-01 12:02:44,769 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 12:02:44,793 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 12:02:44,917 - INFO - MuJoCo library version is: 235
+2025-04-01 12:05:32,471 - INFO - Simulate agent.
+2025-04-01 12:38:05,677 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-04-01 12:38:05,678 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-04-01 12:38:05,678 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-04-01 12:38:05,686 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-04-01 12:53:29,237 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 12:53:30,009 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 12:53:30,985 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 12:53:31,115 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 12:53:44,667 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 12:53:44,803 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 12:54:53,019 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:44:37,577 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:47:18,325 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:47:18,494 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:47:30,888 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:47:30,923 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:47:50,417 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:47:50,567 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:47:50,576 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:47:50,610 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:50:38,560 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:50:38,697 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:50:38,704 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:50:38,733 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:52:51,282 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:52:51,447 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:52:51,453 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 13:52:51,483 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 14:26:08,838 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 14:26:08,984 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 14:26:08,991 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 14:26:09,020 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:334: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 14:56:57,753 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 14:56:57,803 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 14:56:57,954 - INFO - MuJoCo library version is: 235
+2025-04-01 14:59:44,993 - INFO - Simulate agent.
+2025-04-01 15:09:04,207 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-04-01 15:09:04,207 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-04-01 15:09:04,207 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-04-01 15:09:04,217 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-04-01 15:49:17,380 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 15:49:17,748 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 15:49:17,759 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 15:49:18,111 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:335: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 15:50:42,889 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 15:50:43,040 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 15:50:43,047 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 15:50:43,076 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:335: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 16:17:07,380 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 16:17:07,407 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 16:17:07,511 - INFO - MuJoCo library version is: 235
+2025-04-01 16:18:36,672 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 16:18:36,698 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 16:18:36,884 - INFO - MuJoCo library version is: 235
+2025-04-01 16:22:07,279 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 16:22:07,302 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 16:22:07,427 - INFO - MuJoCo library version is: 235
+2025-04-01 16:29:25,646 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-01 16:29:25,664 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-01 16:29:25,738 - INFO - MuJoCo library version is: 235
+2025-04-01 16:47:56,370 - INFO - Simulate agent.
+2025-04-01 16:48:09,042 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-04-01 16:48:09,042 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-04-01 16:48:09,042 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-04-01 16:48:09,051 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-04-01 17:25:50,972 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 17:25:51,943 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 17:25:51,953 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-01 17:25:52,621 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:335: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-02 08:58:51,078 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-02 08:58:51,143 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-02 08:58:51,356 - INFO - MuJoCo library version is: 235
+2025-04-02 09:00:28,099 - WARNING - Some parameters are on the meta device because they were offloaded to the cpu.
+2025-04-02 09:01:42,060 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-02 09:01:42,092 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-02 09:01:42,223 - INFO - MuJoCo library version is: 235
+2025-04-02 09:06:13,540 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-02 09:06:13,568 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-02 09:06:13,694 - INFO - MuJoCo library version is: 235
+2025-04-02 09:08:41,684 - INFO - Simulate agent.
+2025-04-02 10:23:54,720 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-02 10:23:54,745 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-02 10:23:54,873 - INFO - MuJoCo library version is: 235
+2025-04-02 10:26:52,647 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-02 10:26:52,670 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-02 10:26:52,798 - INFO - MuJoCo library version is: 235
+2025-04-02 10:28:20,705 - WARNING - Some parameters are on the meta device because they were offloaded to the cpu.
+2025-04-02 10:28:37,765 - INFO - Simulate agent.
+2025-04-02 11:08:01,775 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-02 11:08:01,797 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-02 11:08:01,925 - INFO - MuJoCo library version is: 235
+2025-04-02 11:09:36,177 - WARNING - Some parameters are on the meta device because they were offloaded to the cpu.
+2025-04-02 11:09:52,560 - INFO - Simulate agent.
+2025-04-02 11:11:21,789 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-02 11:11:21,814 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-02 11:11:21,948 - INFO - MuJoCo library version is: 235
+2025-04-02 11:13:12,409 - INFO - Simulate agent.
+2025-04-02 11:24:44,570 - INFO - 第1次调用的，__call__ 方法中 obs 的数据类型为: <class 'dict'>
+2025-04-02 11:24:44,570 - INFO - 第1次调用的，__call__ 方法中 obs 的数据为: dict_keys(['orientations', 'height', 'velocity', 'image', 'text_embed', 'is_terminal', 'is_first'])
+2025-04-02 11:24:44,571 - INFO - 第1次调用的，__call__ 方法中 obs中的image数组形状的数据为: (4, 64, 64, 3)
+2025-04-02 11:24:44,580 - INFO - 图像已保存到: /home/user/lihang/CODE/PythonCode/dr3+vlm/output_image_1.jpg
+2025-04-02 11:27:03,814 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:130: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-02 11:27:04,966 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:171: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-02 11:27:04,970 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:310: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-02 11:27:05,034 - WARNING - /home/user/lihang/CODE/PythonCode/dr3+vlm/models.py:335: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._use_amp):
+
+2025-04-03 07:25:31,238 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-03 07:25:31,422 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-03 07:25:31,858 - INFO - MuJoCo library version is: 235
+2025-04-03 08:17:45,353 - INFO - MUJOCO_GL=osmesa, attempting to import specified OpenGL backend.
+2025-04-03 08:17:45,379 - INFO - No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+2025-04-03 08:17:45,507 - INFO - MuJoCo library version is: 235

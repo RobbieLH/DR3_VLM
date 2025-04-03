@@ -159,12 +159,13 @@ def simulate(
                 # action will be added to transition in add_to_cache
                 t["reward"] = 0.0
                 t["discount"] = 1.0
-                # initial state should be added to cache
+                # initial state should be added to cache,但是这里只有obs，reward, discount,没有action
                 add_to_cache(cache, envs[index].id, t)
                 # replace obs with done by initial state
                 obs[index] = result
         # step agents
         obs = {k: np.stack([o[k] for o in obs]) for k in obs[0] if "log_" not in k}
+        # 1、agent_state是啥？？？
         action, agent_state = agent(obs, done, agent_state)
         if isinstance(action, dict):
             action = [

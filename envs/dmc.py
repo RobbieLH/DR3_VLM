@@ -1,6 +1,6 @@
 from PIL import Image  #robbie added at 2025-3-19
-import VLM.Qwen #robbie add
-from VLM.sbert import SentenceBert  #robbie add
+# import VLM.Qwen #robbie add
+# from VLM.sbert import SentenceBert  #robbie add
 import gym
 import numpy as np
 
@@ -32,8 +32,8 @@ class DeepMindControl:
         self.reward_range = [-np.inf, np.inf]
 
          ##robbie2025-3-17 add VLM
-        self.vlm = VLM.Qwen.QwenVL("3B")
-        self.sbert = SentenceBert()
+        # self.vlm = VLM.Qwen.QwenVL("3B")
+        # self.sbert = SentenceBert()
          ##robbie2025-3-17 add VLM
         self.envVLM_count = 0
 
@@ -93,17 +93,23 @@ class DeepMindControl:
     
     def VLMtext(self, img):          
         img_path = "tmp_img.png"
-        img = Image.fromarray(img)
-       
-        # img.save(img_path)
-        # text = self.vlm(img)
         global global_counter
         # 计数器加 1
         global_counter = global_counter + 1
+      
+        if global_counter % 8 == 9:
+           img = Image.fromarray(img)
+       
+        # img.save(img_path)
+        #    text = self.vlm(img)
+        #    text_embed = self.sbert(text)
+        #    text_embed = np.array(text_embed)
+        else:
+           text_embed = np.zeros(384)
         # print(f"vlm调用的次数: {global_counter}")
-        text = '这张图片显示了一个卡通风格的简笔画人物。这个人物有一个长脖子和一个圆圆的身体，没有明显的四肢或手部特征。背景是浅色的方格图案，可能代表地板或地面。整体风格简洁且具有一定的抽象感。'
-        text_embed = self.sbert(text)
-        text_embed = np.array(text_embed)
+       
+        # text = '这张图片显示了一个卡通风格的简笔画人物。这个人物有一个长脖子和一个圆圆的身体，没有明显的四肢或手部特征。背景是浅色的方格图案，可能代表地板或地面。整体风格简洁且具有一定的抽象感。'
+        
 
         self.envVLM_count += 1
         if self.envVLM_count == 1:

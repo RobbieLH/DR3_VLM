@@ -283,7 +283,7 @@ class Dreamer(nn.Module):
         metrics.update(mets)
         # 设置起始状态
         start = post
-         # 定义奖励函数
+         # 定义奖励函数???这里的f,s,a 分别是啥？
         reward = lambda f, s, a: self._wm.heads["reward"](
             self._wm.dynamics.get_feat(s)
         ).mode()

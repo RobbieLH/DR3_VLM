@@ -5,7 +5,7 @@ os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 
 # 设置环境变量，让系统只看到指定的 GPU 卡
-os.environ["CUDA_VISIBLE_DEVICES"] = "5,6,7"
+os.environ["CUDA_VISIBLE_DEVICES"] = "5,6,3"
 
 
 # from modelscope import snapshot_download
@@ -49,7 +49,7 @@ class QwenVL:
         # processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct", min_pixels=min_pixels, max_pixels=max_pixels)
     def __call__(self, image):
        
-        statement = "请描述图片内容"
+        statement = "请描述图片内容,并预测图片内容"
 
         messages = [
             {
